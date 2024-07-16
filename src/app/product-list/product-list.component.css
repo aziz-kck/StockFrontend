@@ -11,6 +11,12 @@
   background-color: #f8f8f8;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+.hr-white {
+  border: 0;
+  height: 1px;
+  background-color: white; /* Couleur blanche */
+  margin: 20px 0; /* Espacement autour de la ligne */
+}
 
 .card-body {
   padding: 20px;
@@ -35,8 +41,7 @@
     display: flex;
     align-items: center;
   }
-  
+
   .header h2 {
     margin-right: 10px;
   }
-  
